@@ -1,20 +1,43 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <style>
-        
-    </style>
+<style>
+ul {
+  list-style-type:none;
+  margin: 0;
+  padding: 0;
+  overflow:scroll;
+  background-color: rgb(182, 255, 186);
+  
+}
+
+
+
+li a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 20px 16px;
+  text-decoration: none;
+}
+
+li a:hover ,li :active{
+  background-color:rgb(17, 122, 148);
+  
+ 
+
+}
+div:hover li {display: block;}
+</style>
 </head>
 <body>
-    <ul>
-        <li>Home</li>
-        <li>Article</li>
-        <li>A propos</li>
-        <li>Contact</li>
-    </ul>
+
+<ul>
+  <li><a class="active" href="#home">Home</a></li>
+  <li><a class="active" href="#news">Article</a></li>
+  <li><a href="#contact">A propos</a></li>
+  <li><a href="#about">Contact</a></li>
+</ul>
+
 </body>
 </html>
